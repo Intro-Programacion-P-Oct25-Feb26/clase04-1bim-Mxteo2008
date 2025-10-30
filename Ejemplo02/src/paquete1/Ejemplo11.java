@@ -30,17 +30,9 @@ public class Ejemplo11 {
         nombreAsignatura1 = entrada.nextLine(); // nextLine me permite escribir una cadena
         System.out.println("Ingrese nota de asignatura 1");
         notaAsignatura1 = entrada.nextDouble(); 
-        System.out.println("Ingrese nombre de asignatura 2");
-        nombreAsignatura2 = entrada.nextLine();
-        System.out.println("Ingrese nota de asignatura 2");
-        notaAsignatura2 = entrada.nextDouble();
         
-        System.out.printf("Asignatura 1: %s\nNota 1:%.2f\nAsignatura 2:%s\n"
-                + "Nota 2: %.2f\n",
-                nombreAsignatura1,
-                notaAsignatura1,
-                nombreAsignatura2,
-                notaAsignatura2);
+        
+        System.out.printf("Asignatura 1: %s\nNota 1:%.2f", nombreAsignatura1, notaAsignatura1);
    
     }
     
