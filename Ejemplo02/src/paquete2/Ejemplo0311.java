@@ -18,6 +18,7 @@ public class Ejemplo0311 {
         Scanner entrada = new Scanner(System.in);
         String nombre;
         String apellido;
+        String direccion;
         int nacimiento;
         int  ciclo;
         
@@ -34,14 +35,21 @@ public class Ejemplo0311 {
         System.out.println("Ingrese el ciclo academico en números del estudiante");
         ciclo = entrada.nextInt();
         
+        entrada.nextLine();
+        System.out.println("Ingrese su dirección");
+        direccion = entrada.nextLine();
+               
+        
         System.out.printf("Datos del estudiante\nNombre: %s\nApellido:"
                 + " %s\n"
                 + "Año de nacimiento: "
-                + "%d\nCiclo: %d\n", // hemos cambidado el ultimo printf el %s por el %d ya que se recibe un dato entero
+                + "%d\nCiclo: %d\n" // Hemos cambidado el ultimo printf el %s por el %d ya que se recibe un dato entero
+                + "Direccion: %s\n", 
                 nombre,
                 apellido,
                 nacimiento,
-                ciclo);
+                ciclo,
+                direccion);
         
     }
 }
