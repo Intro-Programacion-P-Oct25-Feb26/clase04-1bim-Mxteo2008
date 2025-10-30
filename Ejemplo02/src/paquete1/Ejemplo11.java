@@ -32,7 +32,8 @@ public class Ejemplo11 {
         notaAsignatura1 = entrada.nextDouble(); 
         
         
-        System.out.printf("Asignatura 1: %s\nNota 1:%.1f", nombreAsignatura1, notaAsignatura1); //  %.2f significa que el decimal se presentará con 2 decimales
+        System.out.printf("Asignatura 1:"
+                + " %s\nNota 1:%.1f", nombreAsignatura1, notaAsignatura1); //  %.2f significa que el decimal se presentará con 2 decimales
    
     }
     
