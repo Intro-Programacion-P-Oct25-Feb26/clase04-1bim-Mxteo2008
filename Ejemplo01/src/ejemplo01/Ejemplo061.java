@@ -34,7 +34,9 @@ public class Ejemplo061 {
         // usamos %f para reemplazar los valore decimales
         // System.out.printf("%s\n\n%s\n\n%s\n", nombreEstudiante, 
         //        apellidoEstudiante, nacimiento);
-        System.out.printf("Nombre:\n\t%s\nApellido:\n\t%s\nEdad: %s\nDireccion:\n\n\t%s\nUniversidad:%s\nCiclo: %S\nAsignatura: %s'\nParalelo:\n\t%S", nombre , apellido , edad, 
+        System.out.printf("Nombre:\n\t%s\nApellido:\n\t%s\nEdad: "
+                + "%s\nDireccion:\n\n\t%s\nUniversidad:%s\nCiclo: %S\nAsignatura:"
+                + "%s'\nParalelo:\n\t%S\n", nombre , apellido , edad, 
                 direccion , universidad , ciclo , asignatura , paralelo);
                 
         
